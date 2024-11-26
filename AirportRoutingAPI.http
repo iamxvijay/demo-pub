@@ -1,0 +1,6 @@
+@AirportRoutingAPI_HostAddress = http://localhost:5073
+
+GET {{AirportRoutingAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

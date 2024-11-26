@@ -1,0 +1,44 @@
+[
+  {
+    "ContainingType": "AirportRoutingAPI.Controllers.AirportController",
+    "Method": "GetDestinations",
+    "RelativePath": "api/Airport/GetDestinations",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "origin",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AirportRoutingAPI.Controllers.LogsController",
+    "Method": "GetLogFileContent",
+    "RelativePath": "api/Logs/File",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fileName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AirportRoutingAPI.Controllers.LogsController",
+    "Method": "GetLogFiles",
+    "RelativePath": "api/Logs/List",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

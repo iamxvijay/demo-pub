@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "zNu9kxH5olEEQZvgDm/pc2yhSnUL42OTZZIewQT8IHI=",
+  "Source": "AirportRoutingAPI",
+  "BasePath": "_content/AirportRoutingAPI",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

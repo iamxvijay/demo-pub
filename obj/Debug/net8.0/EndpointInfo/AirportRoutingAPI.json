@@ -1,0 +1,64 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "AirportRoutingAPI",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Airport/GetDestinations": {
+      "get": {
+        "tags": [
+          "Airport"
+        ],
+        "parameters": [
+          {
+            "name": "origin",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Logs/List": {
+      "get": {
+        "tags": [
+          "Logs"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Logs/File": {
+      "get": {
+        "tags": [
+          "Logs"
+        ],
+        "parameters": [
+          {
+            "name": "fileName",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}
